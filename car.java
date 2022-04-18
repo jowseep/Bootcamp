@@ -13,20 +13,6 @@ public class car {
         this.year = year;
         this.place = place;
     }
-
-    /*public car(String model,String brand, int year, String place) {
-        this.model = model;
-        this.brand = brand;
-        this.year = year;
-        this.place = place;
-    }*/
-    
-    // constructor for movingCar    
-    /*public car(String name, String brand, String place) {
-        this.name = name;
-        this.brand = brand;
-        this.place = place;
-    }*/
     
     // constructor for movingCar    
     public car(String place, String name) {
