@@ -14,23 +14,28 @@ public class car {
         this.place = place;
     }
 
-    public car(String model,String brand, int year, String place) {
+    /*public car(String model,String brand, int year, String place) {
         this.model = model;
         this.brand = brand;
         this.year = year;
         this.place = place;
-    }
+    }*/
     
     // constructor for movingCar    
-    public car(String name, String brand, String model, String place) {
+    /*public car(String name, String brand, String place) {
         this.name = name;
         this.brand = brand;
-        this.model = model;
         this.place = place;
+    }*/
+    
+    // constructor for movingCar    
+    public car(String place, String name) {
+        this.place = place;
+        this.name = name;
     }
 
     public void travel() {
-        System.out.println(name + " wants to travel to " + place + " with his "+ year + " " + model + " " + brand + ".");
+        System.out.println(name + " is currently in " + place + " with his "+ year + " " + model + " " + brand + ".");
     }
 
     public String getName() {
